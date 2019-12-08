@@ -1,17 +1,17 @@
 # Requirements
-1) Go Lang 
+1) Go Lang  
 2) MYSQL v8+ 
 
 # MYSQL
 $ mysql 
-mysql> CREATE DATABASE bookmyshow; 
-mysql> CREATE TABLE movie_seats; 
+mysql> CREATE DATABASE bookmyshow;  
+mysql> CREATE TABLE movie_seats;  
 
 # GO Setup
-> Place the folder containing this file in $GOPATH/src/ 
+> Place the folder containing this file in $GOPATH/src/  
  
-$ go build 
-$ ./bookmyshow_mock 
+$ go build  
+$ ./bookmyshow_mock  
 
 ## Get Available Seats API
 curl -X GET 127.0.0.1:8080/v1/bookmyshow/available
