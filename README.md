@@ -26,3 +26,8 @@ curl -d '{"movie_seat_id": 1, "payment_identifier": 61, "customer_id":122 }' -H 
 
 ## Confirm Payment Callback API
 curl -d '{"movie_seat_id": 7, "payment_identifier": 61, "customer_id":122, "payment_status": "success" }' -H "Content-Type: application/json"  -X POST 127.0.0.1:8080/v1/bookmyshow/payment/callback
+
+
+## Reference
+Hands-On Software Architecture with Golang: Design and Architect Highly Scalable and Robust Applications Using Go  
+By Jyotiswarup Raiturkar
