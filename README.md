@@ -1,13 +1,18 @@
-# Requirements
+# BookMyShow Mock Seat Blocking
+
+This is a very simplified implementation of seat booking to enhance user experience by blocking seats for users so that they can complete their payment.
+If, user is unable to complete the payment, the seats become available to other users after the specified timeout.
+
+## Requirements
 1) Go Lang  
 2) MYSQL v8+ 
 
-# MYSQL
-$ mysql 
+## MYSQL Setup
+$ mysql  
 mysql> CREATE DATABASE bookmyshow;  
 mysql> CREATE TABLE movie_seats;  
 
-# GO Setup
+## GO Setup
 > Place the folder containing this file in $GOPATH/src/  
  
 $ go build  
